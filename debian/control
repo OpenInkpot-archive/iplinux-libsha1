@@ -1,0 +1,24 @@
+Source: libsha1
+Section: core
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Build-Depends: debhelper (>= 4), automake, libtool
+Priority: oprional
+Standards-Version: 3.6.2
+
+Package: libsha1-0
+Section: core
+Priority: optional
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: SHA1 library
+ SHA1 message digest algorithm library.
+
+Package: libsha1-dev
+Section: libdevel
+Priority: optional
+Architecture: any
+Depends: libsha1-0 (= ${binary:Version})
+Description: SHA1 library
+ SHA1 message digest algorithm library.
+ .
+ This package contains development files required to link with the library.
