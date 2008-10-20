@@ -1,2 +1,2 @@
-usr/include/sha1.h
+usr/include/libsha1.h
 usr/lib/libsha1.so
