@@ -28,7 +28,6 @@ clean:
 	dh_testroot
 
 	[ ! -f Makefile ] || $(MAKE) clean
-	rm -f *-stamp
 
 	dh_clean
 

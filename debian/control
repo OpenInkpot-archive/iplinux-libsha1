@@ -1,12 +1,11 @@
 Source: libsha1
 Section: core
 Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
-Build-Depends: debhelper (>= 4), automake, libtool
-Priority: oprional
-Standards-Version: 3.6.2
+Build-Depends: debhelper (>= 7), automake, libtool
+Priority: optional
+Standards-Version: 3.8.0
 
 Package: libsha1-0
-Section: core
 Priority: optional
 Architecture: any
 Depends: ${shlibs:Depends}
