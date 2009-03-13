@@ -1,7 +1,8 @@
 Source: libsha1
 Section: core
 Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
-Build-Depends: debhelper (>= 7), automake, libtool
+Build-Depends: debhelper (>= 7), automake, libtool, debhelper
+XCS-Cross-Host-Build-Depends: debhelper (>= 7), automake, libtool, debhelper
 Priority: optional
 Standards-Version: 3.8.0
 
