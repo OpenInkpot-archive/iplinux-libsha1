@@ -1,3 +1,9 @@
+libsha1 (0.2-3) asimov; urgency=low
+
+  * Missing dh_makeshlibs added.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Sun, 15 Mar 2009 14:52:22 +0600
+
 libsha1 (0.2-2) asimov; urgency=low
 
   * First build for IPlinux.
