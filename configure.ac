@@ -1,9 +1,8 @@
 AC_PREREQ(2.61)
-AC_INIT(libsha1, 0.2, libsha1@googlegroups.com)
+AC_INIT(libsha1, 0.3, libsha1@dottedmag.net)
 AM_INIT_AUTOMAKE
 
 AC_CONFIG_SRCDIR([sha1.c])
-AC_CONFIG_HEADER([config.h])
 
 AC_PROG_CC
 AC_PROG_LIBTOOL
@@ -14,5 +13,5 @@ AC_C_BIGENDIAN
 
 AC_TYPE_UINT32_T
 
-AC_CONFIG_FILES([Makefile])
-AC_OUTPUT
+AC_OUTPUT([Makefile
+           libsha1.pc])
